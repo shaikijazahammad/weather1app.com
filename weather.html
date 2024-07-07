@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather App</h1>
+        <form id="weatherForm">
+            <input type="text" id="city" placeholder="Enter city name" required>
+            <button type="submit">Get Weather</button>
+        </form>
+        <div id="weatherResult" class="hidden">
+            <h2>Weather in <span id="cityName"></span></h2>
+            <p><strong>Temperature:</strong> <span id="temperature"></span>°C</p>
+            <p><strong>Weather:</strong> <span id="weather"></span></p>
+        </div>
+    </div>
+    <script src="weather.js"></script>
+    <footer>
+        <div style="background-color: rgb(0, 255, 51); margin-bottom: 500px ;"><h4> Createad by sk ijaz ahammad  by using html css javascript</h4></div>
+        
+    </footer>
+    
+</body>
+</html>
